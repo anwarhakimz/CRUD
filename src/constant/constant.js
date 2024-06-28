@@ -1,1 +1,1 @@
-export const Url = "http://localhost:8000/";
+export const Url = "https://crud-backend-l967.onrender.com/";
