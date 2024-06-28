@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ListUserPage />} />
-        <Route path="/add" element={<AddUserPage />} />
-        <Route path="/edit/:id" element={<EditUserPage />} />
+        <Route path="/CRUD/add" element={<ListUserPage />} />
+        <Route path="/CRUD/add" element={<AddUserPage />} />
+        <Route path="/CRUD/edit/:id" element={<EditUserPage />} />
       </Routes>
     </Router>
   );
